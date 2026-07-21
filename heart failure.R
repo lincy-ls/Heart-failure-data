@@ -116,6 +116,3 @@ ggplot(data,aes(as.factor(high_blood_pressure),fill=as.factor(high_blood_pressur
 ggplot(data,aes(as.factor(sex),fill=as.factor(sex)))+geom_bar(col="black")+ggtitle("Barplot of sex")+scale_fill_manual(values=c("0"="skyblue","1"="tomato"),labels=c("Woman","Man"),name="Sex")+labs(x="Sex",y="Count")+theme_minimal()
 ggplot(data,aes(as.factor(smoking),fill=as.factor(smoking)))+geom_bar(col="black")+ggtitle("Barplot of smoking")+scale_fill_manual(values=c("0"="skyblue","1"="tomato"),labels=c("No","Yes"),name="Smoking")+labs(x="Smoking",y="Count")+theme_minimal()
 
-ggplot(data,aes(x=factor(sex,labels=c("women","men")),fill=factor(DEATH_EVENT,labels=c("dead","alive"))))+geom_bar(position="dodge")+labs(x="Sex",y="count",fill="Outcome")+theme_minimal()
-  
-                                                                                                                                          

@@ -19,6 +19,7 @@ Heart Failure Clinical Records Dataset
 -ROC curve
 -Model Validation
 -Confusion Matrix
+-Barplots
 
 ##Results
 The Logistic regression model was evaluated using accuracy, sensitivity, specificity, and AUC to assess its predictive performance.
